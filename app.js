@@ -11,12 +11,12 @@ var routes = [
   {path: '/', dir: 'index'},
   {path: '/hotel', dir: 'hotel'},
   {path: '/register', dir: 'register'},
-  {path: '/nime', dir: 'nime'},
   {path: '/parc', dir: 'parc'},
   {path: '/reservation', dir: 'reservation'},
-  {path: '/sete', dir: 'sete'},
-  {path: '/toulouse', dir: 'toulouse'},
   {path: '/login', dir: 'login'},
+  {path: '/poleaquatique', dir: 'poleaquatique'},
+  {path: '/polerealite', dir: 'polerealite'},
+  {path: '/polesport', dir: 'polesport'},
 ];
 
 

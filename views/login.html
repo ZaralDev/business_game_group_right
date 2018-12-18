@@ -5,7 +5,7 @@
 
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="SemiColonWeb" />
-
+  <script src="check.js"></script>
   <!-- Stylesheets
 	============================================= -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
@@ -23,6 +23,32 @@
 	============================================= -->
   <title>Home - One Page Layout 2 | Canvas</title>
 
+  <style>
+
+    .pricing-tenure-switcher { position: relative; }
+
+  	.pricing-tenure-switcher .pts-left,
+  	.pricing-tenure-switcher .pts-right,
+  	.pricing-tenure-switcher .pts-switcher {
+  		display: inline-block;
+  		margin: 0 10px;
+  		height: 30px;
+  		overflow: hidden;
+  	}
+
+  	.pricing-tenure-switcher .pts-left,
+  	.pricing-tenure-switcher .pts-right {
+  		font-size: 16px;
+  		font-weight: 600;
+  		color: #AAA;
+  		line-height: 30px;
+  	}
+
+  	.pricing-tenure-switcher .pts-switch-active { color: #333; }
+
+  	.pricing-tenure-switcher .pts-switcher label { margin-bottom: 0; }
+
+  </style>
 
 
 </head>
@@ -46,57 +72,39 @@
           <!-- Logo
 					============================================= -->
           <div id="logo">
-            <a href="logo " class="standard-logo" data-dark-logo=""><img src="images/logo.png" alt="logo"></a>
-            <a href="logo " class="retina-logo" data-dark-logo=""><img src="images/logo.png" alt="Logo"></a>
+            <a href="index   " class="standard-logo" data-dark-logo=""><img src="orlando.png" alt="Canvas Logo"></a>
+            <a href="index   " class="retina-logo" data-dark-logo=""><img src="orlando.png" alt="Canvas Logo"></a>
           </div><!-- #logo end -->
+
           <!-- Primary Navigation
 					============================================= -->
           <nav id="primary-menu">
 
             <ul>
-              <li class="current"><a href="index ">
+              <li class="current"><a href="index   ">
                   <div>Accueil</div>
                 </a>
               <li><a href="#">
                   <div>Carte du Parc</div>
                 </a></li>
-                <li><a href="reservation ">
-                    <div>Réservation</div>
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="hotel ">
-                        <div>
-                          Hotel
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="parc ">
-                        <div>
-                          Parc
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-
-              <li><a href="sete ">
-                  <div>L'univers</div>
+              <li><a href="reservation   ">
+                  <div>Réservation</div>
                 </a>
                 <ul>
-                  <li><a href="sete ">
-                      <div>Sete</div>
-                    </a></li>
-                  <li><a href="nime ">
-                      <div>Nîme</div>
-                    </a></li>
-                  <li><a href="carcassonne ">
-                      <div>Carcassonne</div>
-                    </a></li>
-                  <li><a href="toulouse ">
-                      <div>Toulouse</div>
-                    </a></li>
+                  <li>
+                    <a href="hotel   ">
+                      <div>
+                        Hotel
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="parc   ">
+                      <div>
+                        Parc
+                      </div>
+                    </a>
+                  </li>
                 </ul>
               </li>
 
@@ -104,10 +112,11 @@
             </ul>
 
             <div id="top-cart">
-              <a onclick="window.location.href='inscription '" id="top-cart-trigger"><i class="icon-user"></i></a>
+              <a onclick="window.location.href='inscription   '" id="top-cart-trigger"><i class="icon-user"></i></a>
             </div><!-- #top-cart end -->
 
           </nav><!-- #primary-menu end -->
+
         </div>
 
       </div>
@@ -292,7 +301,6 @@
   <!-- External JavaScripts
 	============================================= -->
   <script src="javascripts/jquery.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
   <script src="javascripts/plugins.js"></script>
 <script src ="javascripts/login.js"></script>
   <!-- Footer Scripts
