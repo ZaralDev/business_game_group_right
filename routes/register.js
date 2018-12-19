@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 /* GET home pages. */
 router.get('/', function (req, res, next) {
-  res.sendFile('register.html',  { root: VIEW_PATH });
+  res.render('registter', {});
 });
 
 module.exports = router;

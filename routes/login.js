@@ -4,7 +4,7 @@ const VIEW_PATH = require('../config.js').VIEW_PATH;
 
 /* GET home pages. */
 router.get('/', function (req, res, next) {
-  res.sendFile('login.html',  { root: VIEW_PATH });
+  res.render('login', {});
 });
 
 module.exports = router;

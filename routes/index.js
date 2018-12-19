@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 /* GET home pages. */
 router.get('/', function (req, res, next) {
-  res.sendFile('index.html',  { root: VIEW_PATH });
+  res.render('index', {});
 });
 router.get('/index', function (req, res, next) {
   res.redirect('/');
