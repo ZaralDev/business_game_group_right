@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61489288-8861-4890-9ba9-bfb4c17363a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/a1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/a2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/enfants.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/sport.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/carte.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/parcenfant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/carte.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/parcenfant.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/tools/navbar.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/hotel.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/hotel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/parc.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/parc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/poleaquatique.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/poleaquatique.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/polerealite.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/polerealite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/polesport.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/polesport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/reservation.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/reservation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/hotel.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/parc.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/parc.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/poleaquatique.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/poleaquatique.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/polerealite.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/polerealite.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/polesport.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/polesport.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reservation.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="61489288-8861-4890-9ba9-bfb4c17363a6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/poleaquatique.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="142" column="61" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="61" />
+            <state relative-caret-position="221">
+              <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
               <folding>
                 <element signature="e#3676#3683#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -359,12 +329,12 @@
       <workItem from="1545126974178" duration="5887000" />
       <workItem from="1545136433421" duration="4721000" />
       <workItem from="1545148375381" duration="735000" />
-      <workItem from="1545227776470" duration="3147000" />
+      <workItem from="1545227776470" duration="4099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14490000" />
+    <option name="totallyTimeSpent" value="15442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,7 +346,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -675,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/poleaquatique.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="142" column="61" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="61" />
+        <state relative-caret-position="221">
+          <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
           <folding>
             <element signature="e#3676#3683#0#HTML" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
