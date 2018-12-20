@@ -10088,9 +10088,9 @@ body:not(.device-touch) .team-overlay {
 -----------------------------------------------------------------*/
 
 .pricing.pricing-5 .pricing-box {
-	float: left;
 	width: 20%;
 	margin-top: 20px;
+	margin: auto;
 }
 
 .pricing.pricing-5 .pricing-box.best-price { margin-top: 0; }
