@@ -19,6 +19,11 @@ var routes = [
   {path: '/polesport', dir: 'polesport'},
   {path: '/parcenfant', dir: 'parcenfant'},
   {path: '/carte', dir: 'carte'},
+  {path: '/hebergement', dir: 'hebergement'},
+  {path: '/paiement', dir: 'paiement'},
+
+
+
 ];
 
 

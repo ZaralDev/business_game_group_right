@@ -70,176 +70,78 @@
 
     <section id="content">
 
+      <div class="content-wrap">
 
-      <div class="section notopborder nomargin ">
         <div class="container clearfix">
 
-          <h3>Billets D'Entrée Tarif adulte</h3>
 
-          <div class="row pricing pricing-5 bottommargin clearfix">
+          <div id="ptab1">
 
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Plein Tarifs</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>35<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
+
+            <div class="table-responsive">
+              <table class="table cart">
+                <thead>
+                  <tr>
+                    <th class="cart-product-remove">&nbsp;</th>
+                    <th class="cart-product-thumbnail">&nbsp;</th>
+                    <th class="cart-product-name">Product</th>
+                    <th class="cart-product-price">Unit Price</th>
+                    <th class="cart-product-quantity">Quantity</th>
+                    <th class="cart-product-subtotal">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="cart_item">
+                    <td class="cart-product-remove">
+                      <a href="#" class="remove" title="Remove this item"><i class="icon-trash2"></i></a>
+                    </td>
+
+                    <td class="cart-product-thumbnail">
+                      <a href="#"><img width="64" height="64" src="images/hotel.jpg" alt="Pink Printed Dress"></a>
+                    </td>
+
+                    <td class="cart-product-name">
+                      <a href="#">Hotel</a>
+                    </td>
+
+                    <td class="cart-product-price">
+                      <span class="amount">19.99€</span>
+                    </td>
+
+                    <td class="cart-product-quantity">
+                      <div class="quantity clearfix">
+                        <input type="button" value="-" class="minus">
+                        <input type="text" step="1" min="1" name="quantity" value="1" title="Qty" class="qty" size="4" />
+                        <input type="button" value="+" class="plus">
+                      </div>
+                    </td>
+
+                    <td class="cart-product-subtotal">
+                      <span class="result">19.99 €</span>
+                    </td>
+                  </tr>
+                </tbody>
+
+              </table>
+              <div id="card-element">
+                <!-- A Stripe Element will be inserted here. -->
               </div>
             </div>
 
-            <div class="pricing-box pricing-minimal best-price">
-              <div class="pricing-title">
-                <h3>Tarifs Famille (5 billets en mêmes temps)</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>80<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
 
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Personnes a mobilité réduite</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>25<span class="price-tenure">/mo</span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
-
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Tarifs Weekend (2)</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>63<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
-
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Pass Saison</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>95<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
+            <a href="#" class="button button-3d nomargin fright tab-linker" id="card-button" rel="2" data-secret="<%= client_secret %>">Checkout &rArr;</a>
 
           </div>
 
 
-        </div>
+          <div class="clear"></div>
 
+
+        </div>
 
       </div>
 
-      <div class="section notopborder nomargin dark">
-        <div class="container clearfix">
-
-          <h3>Billets D'Entrée Tarif Enfants</h3>
-
-          <div class="row pricing pricing-5 bottommargin clearfix">
-
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Plein Tarifs</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>25<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
-
-            <div class="pricing-box pricing-minimal best-price">
-              <div class="pricing-title">
-                <h3>Pass Saison</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>95<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
-
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Personnes a mobilité réduite</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>15<span class="price-tenure">/mo</span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
-
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Tarifs Weekend (2)</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>50<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
-
-            <div class="pricing-box pricing-minimal">
-              <div class="pricing-title">
-                <h3>Accompagnateurs</h3>
-              </div>
-              <div class="pricing-price">
-                <span class="price-unit">&euro;</span>15<span class="price-tenure"></span>
-              </div>
-              <div class="pricing-action">
-                <a href="paiement" class="btn btn-info btn-block">Réservez</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section notopborder nomargin ">
-        <div class="container clearfix">
-          <div class="row">
-            <div class="col-md-2">
-
-            </div>
-            <div class="col-md-8">
-              <p class="text-center">
-                Profitez de notre Pass Saison! Vous aurez accès illimité à nos attractions pendant toute la saison !!!! *
-                *Nos attractions spéciales ne sont pas incluses. Vous aurez le tarif visiteurs.
-                Hors Saison :
-                Nos attractions spéciales restent ouvertes hors saison (sous réservation).
-                Demandez nos tarifs pour vos événements spéciaux (team building, journées d’intégration, anniversaires, etc.)
-
-              </p>
-            </div>
-            <div class="col-md-2">
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
+    </section><!-- #content end -->
 
 
 
