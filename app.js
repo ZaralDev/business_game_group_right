@@ -21,6 +21,7 @@ var routes = [
   {path: '/carte', dir: 'carte'},
   {path: '/hebergement', dir: 'hebergement'},
   {path: '/paiement', dir: 'paiement'},
+  {path: '/polesensation', dir: 'polesensation'},
 
 
 
